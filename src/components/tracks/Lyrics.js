@@ -30,7 +30,7 @@ class Lyrics extends Component {
         }else {
             return (
                 <React.Fragment>
-                    <Link to = "/" className = "btn btn-dark btn-sm mb-4">Back</Link>
+                    <Link to = "/lyrics-finder/" className = "btn btn-dark btn-sm mb-4">Back</Link>
                     <div className = "card">
                         <h5 className = "card-header">
                             {track.track_name} <span className = "text-secondary">by {track.artist_name}</span>
