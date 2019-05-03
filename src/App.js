@@ -14,8 +14,8 @@ function App() {
           <Navbar/>
           <div className = "container">
             <Switch>
-              <Route exact path = "/" component = {Index}/>
-              <Route exact path = "/lyrics/track/:id" component = {Lyrics}/>
+              <Route exact path = "lyrics-finder/" component = {Index}/>
+              <Route exact path = "lyrics-finder/lyrics/track/:id" component = {Lyrics}/>
             </Switch>
           </div>
         </React.Fragment>
